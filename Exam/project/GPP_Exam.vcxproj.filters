@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SteeringBehaviours.cpp">
+      <Filter>Project\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinedSteeringBehaviours.cpp">
+      <Filter>Project\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EBehaviourTree.cpp">
+      <Filter>Framework\AI\DecisionMaking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SteeringBehaviours.h">
+      <Filter>Project\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinedSteeringBehaviours.h">
+      <Filter>Project\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="EDecisionMaking.h">
+      <Filter>Framework\AI\DecisionMaking</Filter>
+    </ClInclude>
+    <ClInclude Include="EBehaviourTree.h">
+      <Filter>Framework\AI\DecisionMaking</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours.h">
+      <Filter>Project\DecisionMaking</Filter>
+    </ClInclude>
+    <ClInclude Include="EBlackboard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{8ef3caff-9163-4983-8aca-a18c1be9ea80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{27273fff-5171-4a3b-81bd-2cfbc987b5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\DecisionMaking">
+      <UniqueIdentifier>{0c45e6a9-ced4-4d94-bbfb-97fa7304f968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Movement">
+      <UniqueIdentifier>{c748ff2c-2b02-401d-9b63-0e14caee05bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils">
+      <UniqueIdentifier>{9a492db6-81cc-46c9-bd86-eaff6ce3cb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\AI">
+      <UniqueIdentifier>{e1ba811e-82e3-4f4d-b18b-39561ce86f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\AI\DecisionMaking">
+      <UniqueIdentifier>{5ebbad4f-99ba-48d8-9628-c4b0e206f3cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GPP_Exam.rc" />
+  </ItemGroup>
+</Project>
